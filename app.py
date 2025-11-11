@@ -3,7 +3,7 @@ from skyfield.api import load, Topos, Star  #On charge les éphémérides etla p
 from skyfield.data import hipparcos         #On importe le catalogue des étoiles
 from datetime import datetime, timedelta    #Pour manipuler la date et l'heure 
 import matplotlib.pyplot as plt             #Graphiques
-import numpy as                             #Calcul numériques 
+import numpy as np                          #Calcul numériques 
 
 #Titres
 st.set_page_config(page_title="Simulateur céleste", layout="centered")
